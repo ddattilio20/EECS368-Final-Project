@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        .circle {
+                   width: 70px;
+                   height: 70px;
+                   border-radius: 50%;
+                   border-style: solid;
+                   border-color: black;
+                  
+                   display: inline-table;
+                   margin: 10px;
+                }
+        
+        .button {
+                   width: 70px;
+                   height: 70px;
+                   border-radius: 50%;
+                   border-style: solid;
+                   border-color: black;
+                   color: black;
+                   display: inline-table;
+                   margin: 10px;
+                 }
+  
+    </style>
+    <script src="/scripting.js"></script>
+
+    <title>Hello! And welcome to my Connect-4 Game!</title>
+  </head>  
+  <body>
+      <h1 style = "text-align: left;">Hello! And welcome to my Connect-4 Game!</h1>
+      <h2 style = "text-align: left;">To play: press any of the buttons labeled A-G</h2>
+      <br>
+    
+    <table >
+     <tr>
+       <span> <button class="button" id="aButton" onclick="aClick()">A</button></span>
+       <span> <button class="button" id="bButton" onclick="bClick()">B</button></span>
+       <span> <button class="button" id="cButton" onclick="cClick()">C</button></span>
+       <span> <button class="button" id="dButton" onclick="dClick()">D</button></span>
+       <span> <button class="button" id="eButton" onclick="eClick()">E</button></span>
+       <span> <button class="button" id="fButton" onclick="fClick()">F</button></span>
+       <span> <button class="button" id="gButton" onclick="gClick()">G</button></span>
+
+     </tr>
+     <br>
+     <tr>
+         <span class = "circle" id = "35" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "36" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "37" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "38" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "39" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "40" name = "0" style="background-color: white;"></span>
+         <span class = "circle" id = "41" name = "0" style="background-color: white;"></span>
+     </tr>
+     <br>
+
+     <tr>
+        <span class = "circle" id = "28" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "29" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "30" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "31" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "32" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "33" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "34" name = "0" style="background-color: white;"></span>
+    </tr>
+    <br>
+
+    <tr>
+        <span class = "circle" id = "21" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "22" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "23" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "24" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "25" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "26" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "27" name = "0" style="background-color: white;"></span>
+    </tr>
+    <br>
+
+    <tr>
+        <span class = "circle" id = "14" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "15" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "16" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "17" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "18" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "19" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "20" name = "0" style="background-color: white;"></span>
+    </tr>
+    <br>
+
+    <tr>
+        <span class = "circle" id = "7" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "8" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "9" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "10" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "11" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "12" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "13" name = "0" style="background-color: white;"></span>
+    </tr>
+    <br>
+
+    <tr>
+        <span class = "circle" id = "0" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "1" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "2" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "3" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "4" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "5" name = "0" style="background-color: white;"></span>
+        <span class = "circle" id = "6" name = "0" style="background-color: white;"></span>
+    </tr>
+    </table>
+  </body>
+</html>
