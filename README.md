@@ -8,7 +8,7 @@ Welcome to my 368 Connect4 Project
 ReadMe
 ------------
 
-This is my 368 Final Project. The code is also accessible on my GitHub at: 
+This is my 368 Final Project. I created a Connect 4 game, hosted on Glitch and connected to this repo on Github.
 
 ### index.html
 
